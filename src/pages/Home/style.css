@@ -72,3 +72,24 @@
 .container header div .responsible-input::placeholder {
   font-size: 14px;
 }
+
+@media (max-width: 1024px) {
+  .container header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .container header div {
+    flex-direction: column;
+  }
+
+  .container header div .responsible-input {
+    text-align: center;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 430px) {
+  .container header div .responsible-input::placeholder {
+    font-size: 9px;
+  }
+}
