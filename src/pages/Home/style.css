@@ -80,7 +80,8 @@
   }
 
   .container header div {
-    flex-direction: column;
+    flex-direction: column-reverse;
+    margin-top: 1rem;
   }
 
   .container header div .responsible-input {
