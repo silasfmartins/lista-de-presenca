@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container header {
+  width: 50%;
+  margin: 84px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container header div {
+  display: flex;
+  align-items: center;
+}
+
+.container input {
+  width: 50%;
+  padding: 24px;
+
+  background: #E6E6E6;
+  border-radius: 5px;
+  border: none;
+
+  font-size: 16px;
+}
+
+.container button {
+  width: 50%;
+  padding: 24px;
+  font-weight: 700;
+
+  background: #4c9eea;
+  color: #FFFFFF;
+
+  border-radius: 5px;
+  margin: 12px 0 84px;
+  border: none;
+
+  cursor: pointer;
+  transition: filter 0.2s;
+
+  font-size: 16px;
+}
+
+.container button:hover {
+  filter: brightness(0.9);
+}
+
+
+.responsible {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.container header div .responsible-input {
+  width: 100%;
+  padding: 24px;
+  font-weight: 700;
+  background: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  text-align: end;
+}
+
+.container header div .responsible-input::placeholder {
+  font-size: 14px;
+}
